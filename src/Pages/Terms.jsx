@@ -233,7 +233,7 @@ function Terms() {
             <p>​These Terms, the policies and any other agreements that are incorporated herein by reference, as amended, constitute the entire Terms between you and the Company. If any part of these Terms is held by a court of law to be invalid or unenforceable, that portion shall be construed in a manner consistent with applicable law to reflect the original intentions of the parties, and the remaining portions shall remain in full force and effect.</p>
 
             <b>14. CONTACT US</b>
-            <p>If you have any questions about these Terms or Company' Services in general, please contact us. Subject to the content of your inquiry, we may request that you provide additional information in order to allow the appropriate handling of your inquiry.</p>
+            <p>If you have any questions about these Terms or Company' Services in general, please <Link className='text-blue-600 underline' to={'mailto:support@cherrytrivia.com'}>Contact Us</Link>. Subject to the content of your inquiry, we may request that you provide additional information in order to allow the appropriate handling of your inquiry.</p>
         </div>
     )
 }

@@ -215,7 +215,7 @@ function Privacy() {
 
             <b>12. Contact Us</b>
 
-            <p>If you have any further questions, please contact us. </p>
+            <p>If you have any further questions, please <Link className='text-blue-600 underline' to={'mailto:support@cherrytrivia.com'}>Contact us</Link>. </p>
 
             <p>If you reside in the EU, you may also contact our EU representative:
                 European Data Protection Office
