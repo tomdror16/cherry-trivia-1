@@ -13,10 +13,10 @@ function Home() {
 
             <p className='max-w-[90%] lg:max-w-[1024px] text-gray-600 font-regular text-center m-auto my-6 md:text-[16px] lg:text-[20px] mb-0'>Welcome to The Cherry Trivia! Ready to fight for the title of today's champion? Dive into a sea of questions, with no repeats and fresh ones added regularly. Earn points for every correct answer and opt for larger sessions to boost those points even further. Before diving in, kindly review our Terms and Conditions. Let's get started!</p>
 
-<div className='flex justify-center gap-8 items-center'>
-    <Link to={'#'}><img className='w-[250px]' src={google} alt='Google'/></Link>
-    <Link to={'#'}><img className='w-[250px]' src={apple} alt='Apple'/></Link>
-</div>
+            <div className='flex justify-center gap-8 items-center'>
+                <Link to={'#'}><img className='w-[250px]' src={google} alt='Google' /></Link>
+                <Link to={'#'}><img className='w-[250px]' src={apple} alt='Apple' /></Link>
+            </div>
 
             <div className='flex justify-center gap-4 mb-4 flex-wrap md:flex-nowrap'>
                 <Link to="/terms"><button className='bg-transparent border-[1px] border-green py-2.5 px-8 rounded-[100px] duration-200 text-green text-[16px]'>Terms and Conditions</button></Link>
