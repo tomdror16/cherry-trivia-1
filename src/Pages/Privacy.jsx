@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom'
 function Privacy() {
     return (
         <div className='max-w-[1240px] w-[90%] m-auto pt-20 terms'>
-            <h1 className='font-bold text-brown text-[48px]'>Cherry Trivia  - Terms of Use</h1>
+            <h1 className='font-bold text-brown text-[48px]'>Cherry Trivia  - Privacy Policy</h1>
             <div className='text-right'>
-                <p>Revised: <span className='underline'>September 2023</span></p>
+                <p>Revised: <span className='underline'>October 2023</span></p>
             </div>
 
             <b>Introduction</b>
@@ -15,6 +15,19 @@ function Privacy() {
 
             <p>The Company is dedicated to protecting you privacy rights and making our practices regarding your personal data more transparent and fair. This Privacy Policy (<b>“Policy”</b>) was designed to help you under the information we collect, store, use and share, and it applies whenever you install or interact with our App, or otherwise access or use any of our Services.
                 Specifically, it describes our policy regarding –</p>
+
+            <p><span className='font-bold'>1.	What types of data we collect?</span></p>
+            <p><span className='font-bold'>2.	Tracking Technologies</span></p>
+            <p><span className='font-bold'>3.	Why we process your Personal Data?</span></p>
+            <p><span className='font-bold'>5.	Your rights</span></p>
+            <p><span className='font-bold'>6.	Transfer of data outside the EU</span></p>
+            <p><span className='font-bold'>7.	Brazil residents</span></p>
+            <p><span className='font-bold'>8.	Minors</span></p>
+            <p><span className='font-bold'>9.	Retention</span></p>
+            <p><span className='font-bold'>10.	Updates to this Policy</span></p>
+            <p><span className='font-bold'>11.	Controlling Version</span></p>
+            <p><span className='font-bold'>12.	Data Protection Officer</span></p>
+            <p><span className='font-bold'>13.	Contact Us</span></p>
 
             <p className='font-bold'>We strongly urge you to read this Policy and make sure that you fully understand and agree to it. If you do not agree to this Policy, please discontinue and avoid using our Services.
             </p>
@@ -217,14 +230,7 @@ function Privacy() {
 
             <p>If you have any further questions, please <Link className='text-blue-600 underline' to={'mailto:support@cherrytrivia.com'}>Contact us</Link>. </p>
 
-            <p>If you reside in the EU, you may also contact our EU representative:
-                European Data Protection Office
-                via mail: <Link to={'mailto:DMCA@_____________'}>DMCA@_____________</Link></p>
-
-
-            <p>If you reside in the UK, you may also contact our UK representative:
-                EDPO UK Ltd.
-                via mail: <Link to={'mailto:DMCA@_____________'}>DMCA@_____________</Link></p>
+            <p>European Data Protection Office, via mail: <Link className='text-blue-600 underline' to={'mailto:DMCA@trufflelive.com'}>DMCA@trufflelive.com</Link> </p>
 
         </div>
     )

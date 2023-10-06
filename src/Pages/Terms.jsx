@@ -6,7 +6,7 @@ function Terms() {
         <div className='max-w-[1240px] w-[90%] m-auto pt-20 terms'>
             <h1 className='font-bold text-brown text-[48px]'>Cherry Trivia  - Terms of Use</h1>
             <div className='text-right'>
-                <p>Revised: <span className='underline'>September 2023</span></p>
+                <p>Revised: <span className='underline'>October 2023</span></p>
             </div>
 
             <b>1. General</b>
